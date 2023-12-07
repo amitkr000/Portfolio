@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Simulated Robotic Arm control by Tracking Hand movement",
+        "description": "We proposes a methodology of controlling a simulated 4DOF robotic arm in Gazebo environment with the help of an individual’s hand movement in order to achieve a touchless human machine interface.",
+        "long_description":"comming soon....",
+        "image": "img/gesture_control4DOF.png"
+    },
+    {
+        "title": "12 DOF Quadoggo Simulation in Gazebo",
+        "description": "Modelling a 12 Dof quadruped and controlling it to walk in foward direction using crawling gate pattern and joint trajectory controller.",
+        "long_description":"comming soon....",
+        "image": "img/quadruped.jpg"
+    },
+    {
+      "title": "Secondary Vision",
+      "description": "Aims at restoring independence and normalcy in the lives of the blind and visually impaired. Proposed solution consists of the substitution of vision through audition",
+      "long_description":"comming soon....",
+      "image": "img/secondary_vision.jpg"
+    },    
+    {
+        "title": "Restoration(Game)",
+        "description": "Restoration - A game in which you must destroy your enemies, collect the orbs and SAVE THE UNIVERSE.",
+        "long_description":"Restoration - A game in which you must destroy your enemies, <br>collect the orbs and SAVE THE UNIVERSE.<br>It is a Shooting and exploring Game, Design by me and 3 members of my team.<br> We got rank 5th.<br>I mainly worked in Modelling of character, game Environment and wrote script for Player control, UI Control, and little bit in Enemy and Player interaction.<br> Technologies : Unit3D, Blender, Adobe Illustrator",
+        "image": "img/restoration.png"
+    }
+]
+  

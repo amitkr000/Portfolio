@@ -21,19 +21,48 @@
             </div>
             <nav>
                 <a href="#">Home</a>
-                <a href="#">Projects</a>
-                <a href="#">About</a>
+                <a href="#Projects">Projects</a>
+                <a href="#About">About</a>
                 <a href="#">Contact Me</a>
             </nav>
-            
-        </div>
     </div>
     
-    <div class="content_container">
-        <div class="myself">
-            <h1>Hello, I'm <span>Amit</span> <br>Kumar.</h1>
+    <div class="home_container">
+        <div class="last_update">
+            <p>Last Update : Dec 2023</p>
         </div>
-        
+        <div class="social_icons">
+            <li><a href="https://github.com/amitkr000" target="_blank"><img src="icons/github.png" alt="github" width="40px"></a></li>
+            <li><a href="https://www.linkedin.com/in/amit-kumar-3a7b19204" target="_blank"><img src="icons/linkedin.png" alt="linkedin" width="40px"></a></li>
+        </div>
+        <div class="myself">
+            <h1>Hello, I'm <span>Amit</span> <br>Kumar. 😀</h1>
+        </div>
+    </div>
+
+    <div class="Projects" id="Projects">
+        <div class="project_header">
+            <h1>PROJECTS</h1>
+        </div>
+        <div class="project_container" id="projectcontainer">
+
+        </div>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal" onclick="closeModal()">&times;</span>
+                <h2 id="modalTitle"></h2>
+                <img id="modalImg" class="modal-img" alt="Modal Image" width="400" height="400" >
+                <p id="modalContent"></p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="About" id="About">
+        <div class="about_header">
+            <h1>ABOUT</h1>
+        </div>
     </div>
 </body>
 </html>
