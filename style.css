@@ -7,16 +7,16 @@
 html{
     scroll-behavior: smooth;
 }
-
+.header{
+    background-color: #d35454;
+    box-shadow: 5px 5px 10px rgba(250, 118, 118, 0.3);
+}
 /* Header Section ---------------------------------------------*/
 .fixed_container{
     position: sticky;
-    background-color: #d35454;
-    box-shadow: 5px 5px 10px rgba(250, 118, 118, 0.3);
-
 }
 
-.header {
+.container {
     padding-inline: 5% 5%;
     display: flex;
     justify-content: space-between;
@@ -212,10 +212,99 @@ nav a:hover::after{
 }
 
 
-/* Project Section ---------------------------------------------*/
+/* About Section ---------------------------------------------*/
 .about_header h1{
     color: #ffffff;
     padding: 20px;
     text-align: center;
     font-size: 40px;
+}
+
+.about_content{
+    background-image: url(img/pixel_about.png);
+    background-size: cover;
+
+}
+
+.about{
+    padding: 20px;
+    width: 55vw;
+}
+
+.about p{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.about p b{
+    color: #d35454;
+}
+
+.about h3{
+    padding: 10px;
+    color: #d35454;
+}
+
+/* Contact Section ---------------------------------------------*/
+.contact_header h1{
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.contact_container{
+    background-image: url(img/pixel_contact.png);
+    background-size: cover;
+}
+
+.contact_left{
+    width: 40%;
+    padding-left: 5vw;
+    padding-top: 8vh;
+}
+
+.btn{
+    display: inline-block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #d35454;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    background: #262626;
+    transition: background 0.5s;
+}
+
+.btn:hover{
+    background: #d35454;
+}
+
+.contact_left form{
+    padding: 30px;
+}
+
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+/* Copyright Section ---------------------------------------------*/
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #d35454;
+    font-weight: 300;
 }

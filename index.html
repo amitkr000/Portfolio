@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <div class="fixed_container">
-        <div class="header">
+    <div class="fixed_container header">
+        <div class="container">
             <div class="logo">
                 <img src="img/Amit_4.png" alt="Logo">
             </div>
@@ -23,10 +23,11 @@
                 <a href="#">Home</a>
                 <a href="#Projects">Projects</a>
                 <a href="#About">About</a>
-                <a href="#">Contact Me</a>
+                <a href="#Contact">Contact Me</a>
             </nav>
+        </div>
     </div>
-    
+<!-- -----------------------Home Section------------------------------ -->    
     <div class="home_container">
         <div class="last_update">
             <p>Last Update : Dec 2023</p>
@@ -40,8 +41,9 @@
         </div>
     </div>
 
-    <div class="Projects" id="Projects">
-        <div class="project_header">
+<!-- -----------------------Project Section------------------------------ --> 
+    <div class="Projects " id="Projects">
+        <div class="project_header header">
             <h1>PROJECTS</h1>
         </div>
         <div class="project_container" id="projectcontainer">
@@ -59,10 +61,72 @@
 
     </div>
 
-    <div class="About" id="About">
-        <div class="about_header">
+<!-- -----------------------About Section------------------------------ --> 
+    <div class="About " id="About">
+        <div class="about_header header">
             <h1>ABOUT</h1>
         </div>
+
+        <div class="about_content">
+            <div class="about">
+
+                <p>
+                    <b>Hello</b>, I'm Amit Kumar, a final-year B.Tech student majoring in Civil and Infrastructure Engineering with a specialization in robotics. 
+                    My passion lies at the intersection of civil engineering and technology, where I explore software development, robot development, and 
+                    problem-solving through computer vision and machine learning applications.
+                </p>
+    
+                <h3>Academic Background</h3>
+                <p>
+                    I'm on the verge of completing my degree, and my academic journey has equipped me with a foundation in civil engineering, 
+                    complemented by a keen interest in cutting-edge technologies such as robotics.
+                </p>
+    
+                <h3>Interests and Hobbies</h3>
+                <p>
+                    In my free time, you'll find me immersed in a variety of activities. I enjoy doodling and have a liking for discovering new things 
+                    through YouTube. My fascination with technology extends to the gaming world, where I delve into 3D games, VR experiences, and pixel 
+                    art games. I'm also a guitar enthusiast, continually honing my skills. Modeling 3D objects is another passion, and I've honed my 
+                    skills using tools like Blender and Fusion360, creating various object models.
+                </p>
+    
+                <h3>Programming Skills</h3>
+                <p>
+                    My proficiency spans multiple programming languages, including C, C++, C#, Python, and JavaScript. This diverse skill set enables me 
+                    to approach problem-solving from different perspectives and enhances my ability to implement innovative solutions.
+                </p>
+    
+                <h3>Aspirations</h3>
+                <p>
+                    As I approach the end of my academic journey, I envision becoming an engineer who not only solves complex problems but also uses 
+                    technology to improve people's lives. I'm excited to apply my skills and contribute to the ever-evolving field of engineering and technology.
+                </p>
+
+            </div>  
+        </div>
     </div>
+
+<!-- -----------------------Contact Section------------------------------ -->
+    <div class="contact" id="Contact">
+        <div class="contact_header header">
+            <h1>Contact Me</h1>
+        </div>
+
+        <div class="contact_container">
+            <div class="contact_left">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © 2023. Made 🖤 by Amit Kumar</p>
+    </div>
+
 </body>
 </html>
